@@ -4,10 +4,10 @@ Text Autocomplete with TensorFlow LSTM is a project that demonstrates how to bui
 ## Project Overview
 This project consists of the following components:
 
-- Data Preparation: The FAQs about Metridash are used as the dataset for training the LSTM model. The text is tokenized and preprocessed to create input sequences and corresponding output labels.
-- Model Training: A Sequential model is built using TensorFlow and Keras. The model architecture includes an Embedding layer, followed by two LSTM layers, and a Dense layer with softmax activation.
-- Model Evaluation: The model is trained on the input sequences and evaluated using categorical cross-entropy loss and accuracy metrics.
-- Text Autocomplete: Once the model is trained, it can be used to generate text predictions. Given a starting phrase "Metridash uses", the model predicts the next word iteratively to autocomplete the phrase.
+- **Data Preparation**: The FAQs about Metridash are used as the dataset for training the LSTM model. The text is tokenized and preprocessed to create input sequences and corresponding output labels.
+- **Model Training**: A Sequential model is built using TensorFlow and Keras. The model architecture includes an Embedding layer, followed by two LSTM layers, and a Dense layer with softmax activation.
+- **Model Evaluation**: The model is trained on the input sequences and evaluated using categorical cross-entropy loss and accuracy metrics.
+- **Text Autocomplete**: Once the model is trained, it can be used to generate text predictions. Given a starting phrase, the model predicts the next word iteratively to autocomplete the phrase.
 
 ## Getting Started
 To run this project, follow these steps:
